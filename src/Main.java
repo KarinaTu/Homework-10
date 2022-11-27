@@ -24,7 +24,7 @@ public class Main {
         Sort.bubbleSort(bubbles);
         System.out.println(Arrays.toString(bubbles));
 
-        int element = 65;
+        int element = 29;
         int index = Search.search(bubbles, element);
         if (index < 0) {
             System.out.println("Element is not found");
